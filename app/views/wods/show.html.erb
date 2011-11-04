@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Date:</b>
+  <%= @wod.date %>
+</p>
+
+<p>
+  <b>Time of day:</b>
+  <%= @wod.time_of_day %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @wod.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_wod_path(@wod) %> |
+<%= link_to 'Back', wods_path %>
